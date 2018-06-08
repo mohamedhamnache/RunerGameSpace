@@ -1,0 +1,50 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/testBenchFile_isim_beh.exe -prj D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/testBenchFile_beh.prj work.testBenchFile 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/SR.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/pick_a_lane.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/LFSR.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/vga_controller.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/sseg_dec.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/graphics.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/game_logic.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/clk_wiz_v3_6.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/top_level.vhd" into library work
+Parsing VHDL file "D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/testBenchFile.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture pll_adv_v of entity PLL_ADV [\PLL_ADV("OPTIMIZED","CLKFBOUT",...]
+Compiling architecture pll_base_v of entity PLL_BASE [\PLL_BASE("OPTIMIZED",34,0.0,10....]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture xilinx of entity clk_wiz_v3_6 [clk_wiz_v3_6_default]
+Compiling architecture behavioral of entity SR [sr_default]
+Compiling architecture behavioral of entity LFSR [lfsr_default]
+Compiling architecture behavioral of entity pick_a_lane [pick_a_lane_default]
+Compiling architecture behavioral of entity game_logic [game_logic_default]
+Compiling architecture behavioral of entity vga_controller_640_60 [vga_controller_640_60_default]
+Compiling architecture behavioral of entity graphics [graphics_default]
+Compiling architecture my_ckt of entity bin2bcdconv [bin2bcdconv_default]
+Compiling architecture my_clk_div of entity clk_div [clk_div_default]
+Compiling architecture my_sseg of entity sseg_dec [sseg_dec_default]
+Compiling architecture behavioral of entity top_level [top_level_default]
+Compiling architecture behavior of entity testbenchfile
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 42 VHDL Units
+Built simulation executable D:/Etudes/2CS 2017-2018/S2/SEMB/Mini-Projet/RunnerGameProjectV2/testBenchFile_isim_beh.exe
+Fuse Memory Usage: 59084 KB
+Fuse CPU Usage: 1702 ms

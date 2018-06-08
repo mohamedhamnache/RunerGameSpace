@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Etudes\2CS 2017-2018\S2\SEMB\Mini-Projet\RunerV3\RunnerGameProject\top_level.ncd
+OUTFILE=D:\Etudes\2CS 2017-2018\S2\SEMB\Mini-Projet\RunerV3\RunnerGameProject\top_level.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Etudes\2CS 2017-2018\S2\SEMB\Mini-Projet\RunerV3\RunnerGameProject
+LICENSE=WebPack
+USER_INFO=210821714_0_0_756
